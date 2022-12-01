@@ -1,0 +1,31 @@
+h1, h3, h4{
+    font-family: Raleway;
+}
+
+h1{
+    font-size: 3rem;
+}
+
+h4{
+    color: rgb(24, 60, 138);
+}
+
+body{
+    background-color: antiquewhite;
+}
+
+#profileImg{
+    width:300px;
+  height:300px;
+  object-fit:cover;
+  border-radius:50%;
+}
+
+@media print{
+    body{
+        background-color: white;
+    }
+    *{
+        filter: grayscale(100%)
+    }
+}
